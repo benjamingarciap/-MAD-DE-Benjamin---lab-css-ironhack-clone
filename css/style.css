@@ -1,0 +1,187 @@
+/* Global scope */
+.hero {
+  background-image: url("../images/background-img-01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  color:white;
+  text-align: center;
+}
+.empresas-img img{
+  height: 72px;
+}
+aside h2 {
+  text-align: center;
+}
+
+/* navbar */
+.navigation {
+  flex-wrap: nowrap;
+  display:flex;
+  justify-content: space-around;
+}
+.navigation ul {
+  flex-wrap: nowrap;
+  margin-right: 138px;
+  display: inline-block;
+  margin-top: 13px;
+}
+.navigation li {
+  flex-wrap: nowrap;
+  padding:30px 8px;
+  list-style: none;
+  display: inline-block;
+}
+.navigation a {
+  color: white;
+}
+#logo {
+  height: 79px;
+  margin: 25px 0 0 116px;
+}
+#button-aplicar {
+  border: 1.2px solid white;
+  padding: 13px;
+  border-radius: 5px;
+}
+#bandera {
+  height: 17px;
+}
+#hamburguer {
+  height: 30px;
+  display: inline-block;
+}
+.arr {
+  height: 27px;
+}
+
+/* Hero */
+.hero a {
+  font-size: 1.24em;
+  color:white;
+  text-decoration: none;
+}
+h1{
+  line-height: 92px;
+  font-size: 5em;
+}
+h1 span {
+  color:rgb(92, 202, 235);
+}
+.hero p {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+#cursos {
+  background-color: rgb(92, 202, 235);
+  padding: 27px 152px;
+  color: white;
+  border-radius: 7px;
+  display: block;
+  margin: 66px auto 77px auto;
+  font-size: 1.6em;
+  width: 460px;
+  text-align: center;
+}
+/* aside */
+aside {
+  filter: grayscale(100%);
+  border-top: 1px solid rgb(228, 228, 228);
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+aside h2 {
+  font-size: 1em;
+  font-weight: 370;
+  color:grey;
+}
+/* Section 1 */
+
+.img-sect-1 {
+  height: 200px;
+}
+
+.section1 h2 {
+  text-align: center;
+  color:rgb(11, 11, 33);
+  font-size: 3.9em;
+}
+.section1 p {
+  text-align: center;
+  line-height: 1.2em;
+  font-size: 1.6em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.img-sect-1 {
+  height: 471px;
+}
+.quote {
+  margin: 34px 0 61px 48px;
+
+}
+
+/* section 2 */
+.section2 h2 {
+    font-weight: 500;
+    font-size: 3em;
+    margin: 100px 0 40px 0;
+    text-align: center;
+  }
+
+
+
+
+
+/* media queries header*/
+@media all and (min-width: 1024px) {
+  
+  h1 {
+    line-height: 79px;
+    font-size: 4.5em;
+  }
+  .hero a {
+    font-size: 0.7em;
+  }
+  #hamburguer {
+    display: none;
+  }
+}
+@media all and (max-width: 1023px){
+  .hero {
+    background-size: 160%;
+  }
+  h1 {
+    line-height: 39px;
+    font-size: 2.5em;
+  }
+  .hamb {
+    margin: 16px 0 0 0;
+    padding: 36px;
+  }
+  .navigation {
+    justify-content: space-between;
+  }
+  .hero ul {
+    display: none;
+  }
+  #logo {
+    height: 68px;
+    margin: 40px 0 0 49px
+  }
+}
+@media all and (max-width: 751px){
+  #cursos {
+    width: 389px;
+    font-size: 1em;
+    margin: 35px auto 80px auto;
+  }
+  h1 {
+    line-height: 33px;
+    font-size: 2.2em;
+    margin-bottom: 38px;
+  }
+  .hero p {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+}
