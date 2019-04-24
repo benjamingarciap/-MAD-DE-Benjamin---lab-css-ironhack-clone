@@ -133,7 +133,8 @@ aside h2 {
 
 
 /* media queries header*/
-@media all and (min-width: 1024px) {
+
+@media all and (min-width: 1024px) and (max-width: 1300px){
   
   h1 {
     line-height: 79px;
